@@ -1,0 +1,14 @@
+# pour éteindre l'ordi
+alias dodo="sudo shutdown -P now"
+
+#Pour installer un programme
+alias sagi="sudo apt-get install"
+
+#Se connecter avec ssh
+alias sshpi="ssh pi@web.dtellia.fr"
+alias sshpil="ssh pi@192.168.2.105"
+alias sshgit="ssh git@web.dtellia.fr"
+alias sshgitl="ssh git@192.168.2.105"
+
+#Faire le ménage dans un dossier avec des fichiers issus de la compil' tex
+alias cleantex="rm *.log && rm *.aux && rm *.out && rm *.toc && rm *.tex~"

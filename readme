@@ -1,0 +1,3 @@
+- cloner le dossier dans $HOME
+- le renommer .bash
+- créer lien symbolique de .bashrc dans $HOME (ln -s .bash/.bashrc .bashrc
