@@ -85,7 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
+alias ll='ls -hl'
 alias la='ls -alF'
 alias l='ls -CF'
 
@@ -123,8 +123,6 @@ source ~/.bash/alias.sh
 source $HOME/OpenFOAM/OpenFOAM-2.3.0/etc/bashrc
 
 # Cowsay
-echo $"Bienvenue dans la matrice, daniel" | cowsay -f\
-/usr/share/cowsay/cows/ghostbusters.cow
-
-# config de autojump
-[[ -s /home/daniel/.autojump/etc/profile.d/autojump.sh ]] && source /home/daniel/.autojump/etc/profile.d/autojump.sh
+fortune -s | cowsay
+#echo $"Bienvenue dans la matrice, daniel" | cowsay -f\
+#/usr/share/cowsay/cows/ghostbusters.cow

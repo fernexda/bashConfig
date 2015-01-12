@@ -30,3 +30,6 @@ alias cleanhup="find /home/daniel/ -name 'nohup.out' -delete"
 #OpenFoam
 alias cleanFoam="rmd 0.* 1* 2* 3* 4* 5* 6* 7* 8* 9*"
 alias ciscovpn="/opt/cisco/anyconnect/bin/vpnui"
+alias sshISM="ssh -X dfernex@134.169.46.49"
+alias sshMiranda="ssh -X dfernex@134.169.46.47"
+alias sshAnthe="ssh -X 134.169.46.117"
